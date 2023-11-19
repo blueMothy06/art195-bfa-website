@@ -1,0 +1,57 @@
+h1 {
+  margin: 5% 0 2% 10%;
+}
+
+/* for carousel */
+.splide__slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* flexbox for proj info */
+* {
+  margin: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container1 {
+  /* Aligns the children items in a row direction */
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.child1 {
+  width: 30%;
+  height: 250px;
+}
+
+.child2 {
+  width: 70%;
+  margin-left: 10%;
+}
+
+/* flex container for artist info */
+.container2 {
+  /* Aligns the children items in a row direction */
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 10%;
+}
+
+.child2-1 {
+  width: 70%;
+}
+
+.child2-2 {
+  width: 30%;
+  margin-left: 10%;
+}
+
+.artist_profile {
+  max-height: 200px;
+}
