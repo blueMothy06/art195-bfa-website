@@ -1,9 +1,9 @@
 html {
   font-family: 'Source Code Pro', monospace;
   width: auto;
-  background-color: #F1EFDC;
   margin: 0;
   line-height: normal;
+  text-decoration: none;
 }
 
 .bg-color {
@@ -31,12 +31,6 @@ img {
   width: 80%;
   margin: 0 auto;
 }
-
-/* .rowsection {
-  width: 35em;
-  margin-left: auto;
-  margin-right: auto;
-} */
 
 
 /* for carousel */
@@ -92,6 +86,19 @@ img {
   max-height: 200px;
 }
 
+.child3-1 {
+  width: 20%;
+}
+
+.child3-2 {
+  width: 80%;
+  margin-left: 20%;
+}
+
+.container3 {
+  display: flex;
+}
+
 /* button */
 button {
   background-color: #4be6cf;
@@ -108,66 +115,4 @@ button {
   top: 11%;
 }
 
-
 /* phuong's area */
-
-.design-selection {
-  margin: 3em 0 0;
-}
-
-.design-selection ul {
-  list-style: none;
-  width: 94%;
-  margin: 0 auto;
-}
-
-.design-selection ul:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
-
-.design-selection li {
-  float: left;
-  width: 50%;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 1.2rem;
-  margin: 0 0 1em;
-  color: #79253f;
-}
-
-.design-selection li:nth-child(odd) {
-  width: 47%;
-  padding-right: 3%;
-  clear: left;
-}
-
-.design-name {
-  display: block;
-  font-size: 1.4rem;
-  font-weight: bold;
-  margin: 0 0 0.24em;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  position: relative;
-}
-
-.design-name:after {
-  background: none;
-  opacity: 0;
-}
-
-.design-name:hover {
-  font-style: italic;
-}
-
-.designer-name {
-  color: #79253f;
-}
-
-.designer-name:after,
-footer a:after {
-  height: 1px;
-}
