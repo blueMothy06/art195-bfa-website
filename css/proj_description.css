@@ -1,6 +1,34 @@
+html {
+  font-family: 'Source Code Pro', monospace;
+  width: auto;
+  background-color: #F1EFDC;
+  margin: 0;
+  line-height: normal;
+}
+
+.bg-color {
+  background-color: #797fff;
+  color: white;
+  border-radius: 5px;
+  padding-bottom: 5%;
+}
+
+
 h1 {
   margin: 5% 0 2% 10%;
+
 }
+
+img {
+  border-radius: 15px;
+}
+
+.rowsection {
+  width: 35em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 /* for carousel */
 .splide__slide img {
@@ -40,7 +68,6 @@ h1 {
   margin-left: 10%;
   margin-right: 10%;
   margin-top: 5%;
-  margin-bottom: 10%;
 }
 
 .child2-1 {
