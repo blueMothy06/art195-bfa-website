@@ -19,15 +19,24 @@ h1 {
 
 }
 
+p {
+  text-align: left;
+}
+
 img {
   border-radius: 15px;
 }
 
-.rowsection {
+.page-wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* .rowsection {
   width: 35em;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
 
 /* for carousel */
@@ -81,4 +90,84 @@ img {
 
 .artist_profile {
   max-height: 200px;
+}
+
+/* button */
+button {
+  background-color: #4be6cf;
+  border: none;
+  border-radius: 8px;
+  color: #34376e;
+  display: block;
+  font-size: 18px;
+  margin: auto;
+  padding: 16px 32px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  top: 11%;
+}
+
+
+/* phuong's area */
+
+.design-selection {
+  margin: 3em 0 0;
+}
+
+.design-selection ul {
+  list-style: none;
+  width: 94%;
+  margin: 0 auto;
+}
+
+.design-selection ul:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.design-selection li {
+  float: left;
+  width: 50%;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 1.2rem;
+  margin: 0 0 1em;
+  color: #79253f;
+}
+
+.design-selection li:nth-child(odd) {
+  width: 47%;
+  padding-right: 3%;
+  clear: left;
+}
+
+.design-name {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin: 0 0 0.24em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  position: relative;
+}
+
+.design-name:after {
+  background: none;
+  opacity: 0;
+}
+
+.design-name:hover {
+  font-style: italic;
+}
+
+.designer-name {
+  color: #79253f;
+}
+
+.designer-name:after,
+footer a:after {
+  height: 1px;
 }
