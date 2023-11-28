@@ -1,19 +1,17 @@
 #navigator {
 	/* border:solid; */
+	margin-top: 15%;
+	margin-bottom: 5%;
 	padding:0px 50px 0px 50px;
-	margin-left: -30%;
-	margin-right: 50px;
-    margin-top: 10%;
-	float:left;
 	position: sticky;
-	top: 5px;
+	top: -5px;
 	background-color:white;
 	z-index: +5;
 
     /* border same as gallery container */
-    border: 3px dashed white;
-    background-color: rgba(0, 0, 0, .2);
-    border-radius: 25px;
+    /* border: 3px solid rgb(121, 127, 255); */
+    background-color: rgb(148, 255, 210);
+	box-shadow: 5px 5px #888888;
 
 
 }
@@ -46,5 +44,11 @@ ul.square {
 	text-decoration: none;
 	padding:10px 0px 10px 0px;
 	font-size:18px;
+
+}
+
+#toTop {
+	border: 3px solid rgb(255,148,193);
+	background-color: rgb(121,127,255);
 
 }
