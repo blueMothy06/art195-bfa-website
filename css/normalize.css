@@ -7,10 +7,10 @@
  */
 
 
-
+ @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 html {
-  font-family: sans-serif; /* 1 */
+  font-family: 'Space Mono', monospace;
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }

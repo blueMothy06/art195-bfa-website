@@ -1,10 +1,13 @@
 #navigator {
 	/* border:solid; */
+
+	
+
 	margin-top: 15%;
 	margin-bottom: 5%;
-	padding:0px 50px 0px 50px;
+	padding:5px 50px 0px 50px;
 	position: sticky;
-	top: -5px;
+	top: 0px;
 	background-color:white;
 	z-index: +5;
 
@@ -17,11 +20,17 @@
 }
 
 
-@media (max-width: 1268px) {
+/* @media (max-width: 1268px) {
     #navigator {
         display: none;
     }
-}
+} */
+
+ @media (max-width: 600px) {
+    #toTop {
+        display: none;
+    }
+} 
 
 
 #homeNavi {
@@ -48,7 +57,18 @@ ul.square {
 }
 
 #toTop {
+	float:right;
+	position: relative;
 	border: 3px solid rgb(255,148,193);
 	background-color: rgb(121,127,255);
+	
+
+}
+#toTop:hover{
+	float:right;
+	position: relative;
+	border: 3px solid rgb(255, 113, 172);
+	background-color: rgb(88, 97, 255);
+	top: 3px;
 
 }

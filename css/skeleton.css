@@ -28,6 +28,9 @@
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
 .container {
   position: relative;
   width: 100%;
