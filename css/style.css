@@ -1,6 +1,3 @@
-
-
-
 body {
   font: 90% georgia, sans-serif;
   line-height: 1.88889;
@@ -54,11 +51,11 @@ p {
 }
 
 a {
-	font-size: 3em;
+  font-size: 3em;
   line-height: 1.8;
   color: white;
-	font-family: 'Source Code Pro', monospace;
-	text-align: center;
+  font-family: 'Source Code Pro', monospace;
+  text-align: center;
 }
 
 h1 {
@@ -89,7 +86,9 @@ a:visited {
   color: #14E2E2;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
   text-decoration: underline;
   color: #8DFFFF;
 }
@@ -122,28 +121,35 @@ abbr {
   margin: 0 auto;
 }
 
-.main h3, .preamble h3, .select {
+.main h3,
+.preamble h3,
+.select {
   visibility: hidden;
   font-size: 1.5rem;
   letter-spacing: 0.1em;
   color: #733036;
 }
 
-.wf-active .main h3, .wf-active .preamble h3 {
+.wf-active .main h3,
+.wf-active .preamble h3 {
   font-weight: 900;
 }
 
-.main h3:after, .preamble h3:after, .select:after {
+.main h3:after,
+.preamble h3:after,
+.select:after {
   visibility: visible;
   display: block;
 }
 
-.main p, .preamble p {
+.main p,
+.preamble p {
   font-family: 'Source Code Pro', monospace;
   font-size: 1.25rem;
 }
 
-.wf-active .main p, .wf-active .preamble p {
+.wf-active .main p,
+.wf-active .preamble p {
   line-height: 1.2;
 }
 
@@ -234,7 +240,8 @@ abbr {
   color: #79253f;
 }
 
-.designer-name:after, footer a:after {
+.designer-name:after,
+footer a:after {
   height: 1px;
 }
 
@@ -255,13 +262,16 @@ abbr {
 
   }
 
-  [role="article"], [role="banner"], footer {
+  [role="article"],
+  [role="banner"],
+  footer {
     padding: 0 30% 10em 10%;
     text-align: right;
     position: relative;
   }
 
-  [role="article"] h3, [role="banner"] h2 {
+  [role="article"] h3,
+  [role="banner"] h2 {
     position: absolute;
     top: -0.75em;
     left: 75%;
@@ -367,7 +377,9 @@ abbr {
 }
 
 @media screen and (min-width: 1130px) {
-  [role="article"], [role="banner"] {
+
+  [role="article"],
+  [role="banner"] {
     padding-left: 25%;
   }
 
@@ -404,7 +416,9 @@ abbr {
 }
 
 @media screen and (min-width: 1130px) and (min-height: 1037px) {
-  .design-selection, .design-archives {
+
+  .design-selection,
+  .design-archives {
     position: fixed;
   }
 }
@@ -437,7 +451,8 @@ abbr {
   -webkit-animation-iteration-count: 1;
 }
 
-.design-selection, .design-archives {
+.design-selection,
+.design-archives {
   -webkit-opacity: 0;
   -webkit-animation-name: FADEY;
   -webkit-animation-duration: 1s;
@@ -460,6 +475,7 @@ abbr {
   color: #fff;
   border-radius: 25px;
 }
+
 .gallery-container-b {
   margin: auto;
   max-width: 1000px;
@@ -473,6 +489,7 @@ abbr {
   color: #fff;
   border-radius: 25px;
 }
+
 .gallery-item-a {
   padding: 20px;
   text-align: center;
@@ -484,8 +501,12 @@ abbr {
   transform: scale(1.05);
   opacity: 0.85;
   -webkit-filter: blur(1px);
-	filter: blur(1px);
+  filter: blur(1px);
 
+}
+
+.img {
+  border-radius: 15px;
 }
 
 .row {

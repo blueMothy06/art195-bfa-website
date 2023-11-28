@@ -1,4 +1,7 @@
 html {
+
+  margin: 0;
+
   font-family: 'Source Code Pro', monospace;
   width: auto;
   margin: 0;
@@ -21,17 +24,18 @@ h1 {
 
 p {
   text-align: left;
+  overflow: hidden
 }
 
 img {
   border-radius: 15px;
 }
 
-.page-wrapper {
-  width: 80%;
-  margin: 0 auto;
-}
 
+/* .logo {
+  margin-right: 20%;
+  float: right;
+} */
 
 /* for carousel */
 .splide__slide img {
@@ -50,13 +54,14 @@ img {
 .container1 {
   /* Aligns the children items in a row direction */
   display: flex;
-  margin-left: 10%;
+  /* margin-left: 10%; */
   margin-right: 10%;
 }
 
 .child1 {
-  width: 30%;
-  height: 250px;
+  max-width: 50%;
+  max-height: 50%;
+  /* height: 250px; */
 }
 
 .child2 {
@@ -66,9 +71,8 @@ img {
 
 /* flex container for artist info */
 .container2 {
-  /* Aligns the children items in a row direction */
   display: flex;
-  margin-left: 10%;
+  /* margin-left: 10%; */
   margin-right: 10%;
   margin-top: 5%;
 }
@@ -86,18 +90,27 @@ img {
   max-height: 200px;
 }
 
+/* flex container for nav and content */
+.container3 {
+  display: flex;
+  /* margin-left: 10%; */
+  /* margin-right: 10%; */
+  margin-top: 5%;
+}
+
 .child3-1 {
-  width: 20%;
+  /* width: 20%; */
 }
 
 .child3-2 {
-  width: 80%;
-  margin-left: 20%;
+  /* width: 80%;
+  margin-left: 20%; */
 }
 
+/* 
 .container3 {
   display: flex;
-}
+} */
 
 /* button */
 button {
@@ -114,5 +127,3 @@ button {
   text-decoration: none;
   top: 11%;
 }
-
-/* phuong's area */

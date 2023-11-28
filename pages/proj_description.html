@@ -1,17 +1,22 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+<!-- for image gallery -->
 <link rel="stylesheet" type="text/css" href="../css/proj_description.css">
 <link rel="stylesheet" type="text/css" href="../css/splide-core.min.css">
 <link rel="stylesheet" type="text/css" href="../css/splide-default.min.css">
 <link rel="stylesheet" type="text/css" href="../css/splide.min.css">
-<link rel="stylesheet" href="css/skeleton.css">
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="../css/style.css">
 <script src="../js/splide.min.js"></script>
+<!-- the other css -->
+<link rel="stylesheet" href="../css/skeleton.css">
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/style.css">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <head>
     <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <script>
         document.addEventListener('DOMContentLoaded', function () {
             new Splide('#image-carousel', {
@@ -25,38 +30,39 @@
 <body>
     <div class="bg-color">
 
-        <!-- logo -->
-        <div class="rowsection" style="width: 100%;">
-
-            <p href="../assets/website_logo/logo.png" target="_blank"><img src="../assets/website_logo/logo.png"
-                    alt="width = " 150" height="150""></p>
-              <br>
-        
-    <div class="container3">
-            <div class="child3-1">
-                <!-- nav bar -->
-                <aside class=" sidebar" role="complementary">
-                    <div class="wrapper">
-
-                        <div class="design-selection" id="design-selection">
-
-                            <nav role="navigation">
-                                <ul>
-                                    <li>
-                                        <div class="box box1">
-                                            <a href="../gallery.html" class="design-name"> ARTIST </a> ABOUT
-                                        </div>
-
-                                </ul>
-                            </nav>
-                        </div>
-
-                        <br> <br> <br>
-
-                </aside>
+        <div class="container" style="padding: 3%">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="../assets/website_logo/logo.png" class="u-full-width" style="width: ;">
+                </div>
             </div>
-            <div class="box2">
-                <h1>Project</h1>
+        </div>
+
+        <!-- container 3 holds both nav bar and other elements -->
+        <div class=" container3">
+            <div class="child3-1">
+                <div class="container">
+
+                    <div id="navigator">
+                        <a id="homeNavi" href="index.html"><b> > Home < </b></a>
+
+                        <!-- Set href to element ID to jump to that element -->
+                        <ul class="square">
+                            <li><a class="naviATag" href="#endOfPage">End of page</a></li>
+                            <li><a class="naviATag" href="">Gallery</a></li>
+                            <li><a class="naviATag" href="">PlaceHolder</a></li>
+                            <li><a class="naviATag" href="">PlaceHolder</a></li>
+                            <li><a class="naviATag" href="">PlaceHolder</a></li>
+                        </ul>
+
+                        <br><br><br>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="child3-2">
 
                 <div class=" container1">
                     <!-- carousel gallery -->
@@ -93,15 +99,26 @@
                             velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
                             proident,
                             sunt
-                            in culpa qui officia deserunt mollit anim id est laborum."
+                            in culpa qui officia deserunt mollit anim id est laborum. sed quia non numquam eius modi
+                            tempora incidunt ut labore et dolore magnam aliquam quaerat
+                            voluptatem.
+                            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
+                            nisi
+                            ut
+                            aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate
+                            velit
+                            esse
+                            quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+                            pariatur?"
                         </p>
+                        <a href="">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view project</button>
+                        </a>
                     </div>
                 </div>
                 <br>
 
-                <a href="">
-                    <button style="margin-bottom: 15%; text-transform: uppercase; ">view project</button>
-                </a>
+
 
                 <div class="container2">
                     <div class="child2-1">
@@ -119,31 +136,22 @@
                             nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur,
                             adipisci
                             velit,
-                            sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat
-                            voluptatem.
-                            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam,
-                            nisi
-                            ut
-                            aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate
-                            velit
-                            esse
-                            quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
-                            pariatur?
+
                         </p>
+                        <a href="">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view artist
+                                portfolio</button>
+                        </a>
                     </div>
                     <div class="child2-2">
                         <img class="artist_profile" src="../assets/artist_img/artist1.png" alt="artist 1">
                     </div>
                 </div>
                 <br>
-                <a href="">
-                    <button style="margin-bottom: 15%; text-transform: uppercase; ">view artist portfolio</button>
-                </a>
             </div>
         </div>
-    </div>
- 
 
+    </div>
 </body>
 
 </html>
