@@ -54,9 +54,11 @@ img {
 }
 
 .child1 {
-  max-width: 30%;
-  max-height: 30%;
+  /* max-width: 30%;
+  max-height: 30%; */
   /* height: 250px; */
+  max-height: 400px;
+  max-width: 400px;
 }
 
 .child2 {
