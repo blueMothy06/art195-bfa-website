@@ -37,6 +37,16 @@ img {
   object-fit: cover;
 }
 
+
+
+.splide__slide {
+  opacity: 0.6;
+}
+
+.splide__slide.is-active {
+  opacity: 1;
+}
+
 /* flexbox for proj info */
 * {
   margin: 0;
@@ -52,9 +62,6 @@ img {
 }
 
 .child1 {
-  /* max-width: 30%;
-  max-height: 30%; */
-  /* height: 250px; */
   max-height: 400px;
   max-width: 400px;
 }
