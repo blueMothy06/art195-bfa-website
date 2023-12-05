@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- for image gallery -->
+<link rel="stylesheet" type="text/css" href="../css/proj_description.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide.min.css">
+<script src="../js/splide.min.js"></script>
+<!-- the other css -->
+<link rel="stylesheet" href="../css/skeleton.css">
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1,
+            }).mount();
+        });
+    </script>
+    <title>Ctrl+Art+Del</title>
+</head>
+
+<body>
+    <div class="bg-color">
+
+        <div class="container" style="padding: 3%">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="../assets/website_logo/logo.png" class="u-full-width">
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVBAR START -->
+        <div id="navigator">
+            <a class="button button-primary" href="../FrontPage.html">Homepage</a>
+            <a class="button button-primary" href="../gallery.html">Artist Gallery</a>
+            <a class="button button-primary" href="../exhibition.html">Exhibition Photos</a>
+            <a class="button button-primary" href="../about.html">About</a>
+            <a class="button button-primary" href="https://newart.city/show/sjsu-fall-2023-space-1">New Art City</a>
+            <a class="button button-primary" id="toTop" href="#topOfPage">UP</a>
+        </div>
+        <!-- NAVBAR ENDS -->
+
+        <!-- container 3 holds both nav bar and other elements -->
+        <div class="container3">
+
+            <div class="child3-2" style="margin-left: 10%;">
+
+                <div class=" container1">
+                    <!-- carousel gallery -->
+                    <div class="child1">
+                        <section id="image-carousel" class="splide" aria-label="Project Images">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/van1.JPG"
+                                            alt="dimensions, parallel world, multiverse, dimensional, infinite, infinity, reflection, abstract">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/van2.JPG"
+                                            alt="dimensions, parallel world, multiverse, dimensional, infinite, infinity, reflection, abstract">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/van3.JPG"
+                                            alt="dimensions, parallel world, multiverse, dimensional, infinite, infinity, reflection, abstract">
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- area for description -->
+                    <div class="child2">
+                        <h2 style="font-family: 'Source Code Pro', monospace;">Dimensions</h2>
+                        <h3 style="font-family: 'Source Code Pro', monospace; font-size: 24px;">Van Nguyen </h3>
+                        <p style="text-align: left; font-size: 16px;   line-height: 150%;">
+                            Artist statement: "Dimensions" is an immersive video projection mapping project that
+                            transports viewers into a mesmerizing 3D installation of portals unveiling multi dimensions.
+                            This transformative experience invites you to explore a world where the boundaries of
+                            reality dissolve. Through a symphony of light, sound, and technology, the exhibition
+                            inspires viewers to imagine and discover not only the showcased physical installation but
+                            also the enduring promise of themselves in alternate dimensions. It is a reflective journey
+                            into the possibilities and limitless, where the multiverse of possibilities unfolds.
+                        </p>
+                        <a href="https://vanng9797.github.io/">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view project</button>
+                        </a>
+                    </div>
+                </div>
+                <br>
+
+
+
+                <div class="container2">
+                    <div class="child2-1">
+                        <h2>Biography</h2>
+                        <p style="text-align: left;">
+                            Van Nguyen is a Digital Media Artist specializing in Motion Graphics, Video Arts, and Visual
+                            Design. She is intrigued by the visual aesthetics of abstraction and minimalism, and
+                            interested in bringing her artwork to life using technologies such as projection mapping on
+                            physical 3D installation. She also appreciates the beauty of expression in music and visual,
+                            and is strongly inspired by the art of multidisciplinary collaboration among artists and
+                            designers of different fields.
+                        </p>
+                        <a href="https://kobynguyen.wixsite.com/website">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view artist
+                                portfolio</button>
+                        </a>
+                    </div>
+                    <div class="child2-2">
+                        <img class="artist_profile" src="../assets/artist_img/van.JPG" alt="van nguyen ">
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

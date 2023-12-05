@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- for image gallery -->
+<link rel="stylesheet" type="text/css" href="../css/proj_description.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide.min.css">
+<script src="../js/splide.min.js"></script>
+<!-- the other css -->
+<link rel="stylesheet" href="../css/skeleton.css">
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1,
+            }).mount();
+        });
+    </script>
+    <title>Ctrl+Art+Del</title>
+</head>
+
+<body>
+    <div class="bg-color">
+
+        <div class="container" style="padding: 3%">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="../assets/website_logo/logo.png" class="u-full-width">
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVBAR START -->
+        <div id="navigator">
+            <a class="button button-primary" href="../FrontPage.html">Homepage</a>
+            <a class="button button-primary" href="../gallery.html">Artist Gallery</a>
+            <a class="button button-primary" href="../exhibition.html">Exhibition Photos</a>
+            <a class="button button-primary" href="../about.html">About</a>
+            <a class="button button-primary" href="https://newart.city/show/sjsu-fall-2023-space-1">New Art City</a>
+            <a class="button button-primary" id="toTop" href="#topOfPage">UP</a>
+        </div>
+        <!-- NAVBAR ENDS -->
+
+        <!-- container 3 holds both nav bar and other elements -->
+        <div class="container3">
+
+            <div class="child3-2" style="margin-left: 10%;">
+
+                <div class=" container1">
+                    <!-- carousel gallery -->
+                    <div class="child1">
+                        <section id="image-carousel" class="splide" aria-label="Project Images">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/ngan1.jpg" alt="Political map of Ronias">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/ngan2.jpg"
+                                            alt="A view of 'Ronias - The Unknown World'">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/ngan3.png"
+                                            alt="Markou Liose - the youngest Plemona Lord of Ronias">
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- area for description -->
+                    <div class="child2">
+                        <h2 style="font-family: 'Source Code Pro', monospace;">Ronias - The Unknown World</h2>
+                        <h3 style="font-family: 'Source Code Pro', monospace; font-size: 24px;">Hoang Bao Ngan Tran</h3>
+                        <p style="text-align: left; font-size: 16px;   line-height: 150%;">
+                            Artist statement: "'Ronias - The Unknown World' is a virtual exhibition of a fantasy world
+                            concept design. The exhibition will provide an overview of Ronias' basic structure,
+                            including social systems, geography, and ecosystems. I want to generate the experience of
+                            walking through a museum chamber where one's social and global structure is visualized
+                            through drawings and 3D models. I considered the concepts of "What if we're not the only
+                            species with high intelligence?" and "Uniqueness is singularity but also extraordinary" when
+                            I first started working on Ronias. I wanted to investigate deeply into the idea that every
+                            person is unique in some way. Being unique might be viewed negatively in some cultures, but
+                            there are times when it makes you stronger than everyone else."
+                        </p>
+                        <a href="">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view project</button>
+                        </a>
+                    </div>
+                </div>
+                <br>
+
+
+
+                <div class="container2">
+                    <div class="child2-1">
+                        <h2>Biography</h2>
+                        <p style="text-align: left;">
+                            Hoang Bao Ngan Tran (or Ngan Tran, also goes by Azure Fuzz on all social media), is a
+                            digital media artist focusing on illustration and concept art. She was born and raised in
+                            Vietnam before coming to the US to pursue an education in Digital Art in 2017. Ngan attended
+                            Evergreen Valley College from 2017 to 2020 and received an AA in 2-D and Studio Art. In
+                            2020, she transferred to San Jose State University in the midst of the pandemic as an
+                            undergraduate Digital Media Art student.
+                            <br><br>
+                            Ngan sees the world as a story that only she can see and tell through her works. Her
+                            abilities in various digital mediums give her a certain value of freedom in creating her own
+                            work. She mostly expresses her contradictory worldview through various digital illustrations
+                            and character design. Her favorite drawing applications are Procreate and Clip Studio Paint.
+                            She also experiments with frame-by-frame animation using those two applications. With Adobe
+                            Creative Clouds, Ngan’s experience with the apps is all on an intermediate level. However,
+                            she has more works created using After Effects and Premier for all video editing projects.
+                            Ngan is also interested in game design and concept design, with a variety of games created
+                            using Twine, p5.js, and Unity. For 3D works, she also has experience in modeling in Blender
+                            and creates virtual scenes in Mozilla hubs and Unity.
+                        </p>
+                        <a href="https://ngantran-azure.github.io/ngantran.github.io/index.html">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view artist
+                                portfolio</button>
+                        </a>
+                    </div>
+                    <div class="child2-2">
+                        <img class="artist_profile" src="../assets/artist_img/ngan.jpg" alt="Hoang Bao Ngan Tran ">
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

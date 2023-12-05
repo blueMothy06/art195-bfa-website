@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- for image gallery -->
+<link rel="stylesheet" type="text/css" href="../css/proj_description.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide.min.css">
+<script src="../js/splide.min.js"></script>
+<!-- the other css -->
+<link rel="stylesheet" href="../css/skeleton.css">
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1,
+            }).mount();
+        });
+    </script>
+    <title>Ctrl+Art+Del</title>
+</head>
+
+<body>
+    <div class="bg-color">
+
+        <div class="container" style="padding: 3%">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="../assets/website_logo/logo.png" class="u-full-width">
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVBAR START -->
+        <div id="navigator">
+            <a class="button button-primary" href="../FrontPage.html">Homepage</a>
+            <a class="button button-primary" href="../gallery.html">Artist Gallery</a>
+            <a class="button button-primary" href="../exhibition.html">Exhibition Photos</a>
+            <a class="button button-primary" href="../about.html">About</a>
+            <a class="button button-primary" href="https://newart.city/show/sjsu-fall-2023-space-1">New Art City</a>
+            <a class="button button-primary" id="toTop" href="#topOfPage">UP</a>
+        </div>
+        <!-- NAVBAR ENDS -->
+
+        <!-- container 3 holds both nav bar and other elements -->
+        <div class="container3">
+
+            <div class="child3-2" style="margin-left: 10%;">
+
+                <div class=" container1">
+                    <!-- carousel gallery -->
+                    <div class="child1">
+                        <section id="image-carousel" class="splide" aria-label="Project Images">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/christian1.png" alt="title screen">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/christian2.png" alt="room">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/christian3.png" alt="dialogue">
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- area for description -->
+                    <div class="child2">
+                        <h2 style="font-family: 'Source Code Pro', monospace;">Blackwall</h2>
+                        <h3 style="font-family: 'Source Code Pro', monospace; font-size: 24px;">Christian Acosta</h3>
+                        <p style="text-align: left; font-size: 16px;   line-height: 150%;">
+                            Artist statement: "Oftentimes people view the monster as an evil thing to destroy, but they
+                            fail to learn about its story. Hidetaka Miyazaki, the creator of the video game Dark Souls,
+                            has a world filled with such monsters. They are ugly, evil looking, and attack you therefore
+                            they must die. This is what most players think, but for the ones who look past their
+                            features and take the extra effort to dive deeper into their stories discover the sadness of
+                            their tales. They learn that most of these monsters were just trying to survive the curse
+                            laid upon them, oftentimes they attack you because they’re protecting the only thing they
+                            hold dear to them, and most of them were just innocents caught in the crossfires of some
+                            higher authority figure’s greedy war. Learning their story grants players a more virtuous
+                            reason to fight. Every creature encountered is now met with pity and every creature slain is
+                            met with mercy. Before you fight, think about your enemy. It’s the least you can do.
+                            <br> <br>
+                            Blackwall is an RPG game where you play as the hero whose duty is to stop the Lich. You are
+                            allowed to ignore everything and just speed rush through, but players who take their time to
+                            understand the story will have a better experience. Blackwall is meant to teach players that
+                            these monsters you must kill were once people. Understand the story, understand the people
+                            you are protecting, understand these things before you must kill. In the real world, not
+                            every encounter will have a peaceful resolution, but you must not lose your humanity when
+                            doing so."
+                        </p>
+                        <a href="">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view project</button>
+                        </a>
+                    </div>
+                </div>
+                <br>
+
+
+
+                <div class="container2">
+                    <div class="child2-1">
+                        <h2>Biography</h2>
+                        <p style="text-align: left;">
+                            I was born in Manilla, Philippines and raised in San Jose, California. I started my art
+                            journey sometime in elementary school in the early 2000’s creating funny comics for my
+                            school mates with just a pencil and paper. High school is when I began to pursue a career in
+                            art, learning all the fundamentals through my background in animation. However, when I got
+                            to college I was convinced to change my career aspirations and started to learn coding. Yet
+                            my passion for art and video games lead me back to pursuing my original dream. My thirst to
+                            learn everything related to art and video games has broadened my knowledge as a student and
+                            a creator. Now with my accumulated knowledge and experience, I plan to create many more
+                            projects to entertain everyone.
+                        </p>
+                        <a href="https://christianlacosta.weebly.com/">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view artist
+                                portfolio</button>
+                        </a>
+                    </div>
+                    <div class="child2-2">
+                        <img class="artist_profile" src="../assets/artist_img/christian.jpg" alt="christian acosta">
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

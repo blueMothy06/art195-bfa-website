@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- for image gallery -->
+<link rel="stylesheet" type="text/css" href="../css/proj_description.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide.min.css">
+<script src="../js/splide.min.js"></script>
+<!-- the other css -->
+<link rel="stylesheet" href="../css/skeleton.css">
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1,
+            }).mount();
+        });
+    </script>
+    <title>Ctrl+Art+Del</title>
+</head>
+
+<body>
+    <div class="bg-color">
+
+        <div class="container" style="padding: 3%">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="../assets/website_logo/logo.png" class="u-full-width">
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVBAR START -->
+        <div id="navigator">
+            <a class="button button-primary" href="../FrontPage.html">Homepage</a>
+            <a class="button button-primary" href="../gallery.html">Artist Gallery</a>
+            <a class="button button-primary" href="../exhibition.html">Exhibition Photos</a>
+            <a class="button button-primary" href="../about.html">About</a>
+            <a class="button button-primary" href="https://newart.city/show/sjsu-fall-2023-space-1">New Art City</a>
+            <a class="button button-primary" id="toTop" href="#topOfPage">UP</a>
+        </div>
+        <!-- NAVBAR ENDS -->
+
+        <!-- container 3 holds both nav bar and other elements -->
+        <div class="container3">
+
+            <div class="child3-2" style="margin-left: 10%;">
+
+                <div class=" container1">
+                    <!-- carousel gallery -->
+                    <div class="child1">
+                        <section id="image-carousel" class="splide" aria-label="Project Images">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/daniel1.jpg"
+                                            alt="Boat Taxi: 2020 South Asian Floods, cars with people escaping flooding">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/daniel2.jpg"
+                                            alt="Pay the Toll: 2021 Hurricane Ida, A barge rams into bridge Lafitte, La.">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/daniel3.jpg"
+                                            alt="Aftermath: 2007 cyclone sidr bangladesh woman crying from family loss ">
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- area for description -->
+                    <div class="child2">
+                        <h2 style="font-family: 'Source Code Pro', monospace;">Digital Storm</h2>
+                        <h3 style="font-family: 'Source Code Pro', monospace; font-size: 24px;">Daniel Mendez</h3>
+                        <p style="text-align: left; font-size: 16px;   line-height: 150%;">
+                            Artist statement: "As a Digital Artist, Daniel Mendez endeavors to bring together the
+                            boundless potential of technology to convey a profound message about the delicate connection
+                            between humanity and the environment. Through the medium of Photoshop and Premiere Pro
+                            editing, Daniel Mendez seeks to draw attention to the pressing issue of climate change and
+                            bring light to the transformative impact human actions have on the world around us.
+                            <br><br>
+                            In the realm of digital creation, Daniel Mendez serves as both a visionary and a
+                            conscientious narrator. The artist is the one who brings life to screens, and it goes beyond
+                            physical constraints. Each photo and video clip is a deliberate act aimed at showing the
+                            story of environmental shifts over time and the effects we as humans have on it.
+                            <br><br>
+                            Daniel Mendez utilizes the dynamic capabilities of digital media to craft an immersive
+                            narrative. The intention is not merely aesthetic, but rather a purposeful exploration of the
+                            ecological environment that often goes unnoticed in the mundane of everyday life. The
+                            digital realm becomes a powerful place for Daniel Mendez’s commitment to raising awareness
+                            about the consequences of climate change."
+                        </p>
+                        <a href="">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view project</button>
+                        </a>
+                    </div>
+                </div>
+                <br>
+
+
+
+                <div class="container2">
+                    <div class="child2-1">
+                        <h2>Biography</h2>
+                        <p style="text-align: left;">
+                            Through the combination of art and technology, Daniel Mendez seeks to inspire people to look
+                            inward and evoke a sense of responsibility from each viewer. The digital canvas becomes a
+                            mirror reflecting the consequences of human actions, a visual representation of the evolving
+                            relationship between society and the environment. Daniel Mendez aims to prompt viewers to
+                            reconsider their impact on the planet and contemplate the collective responsibility we have
+                            for the well being of the earth.
+                            <br><br>
+                            In Daniel Mendez’s digital creations. One finds not only a visual spectacle but also a call
+                            to action - a subtle yet important reminder that the virtual world is intrinsically
+                            connected to the physical world. By using the tools of the digital world, Daniel Mendez
+                            aspires to be a message and image for change, inviting viewers to engage in dialogue about
+                            the urgent need for environmental awareness and action.
+                            <br><br>
+                            As Daniel Mendez navigates the digital landscape, his artistic journey opens up into a
+                            dynamic narrative - a statement to the transformative power of art in fostering awareness,
+                            empathy, and a collective commitment to preserving the planet for future generations.
+                        </p>
+
+                    </div>
+                    <div class="child2-2">
+                        <img class="artist_profile" src="../assets/artist_img/daniel.jpg" alt="daniel mendez">
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
