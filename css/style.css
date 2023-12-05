@@ -17,6 +17,11 @@ body {
   background-size: cover;
 }
 
+::selection {
+  color: white;
+  background: #ff6ac9;
+}
+
 .menu {
   margin-bottom: 2vh;
   /* margin-left: 1vh; */
