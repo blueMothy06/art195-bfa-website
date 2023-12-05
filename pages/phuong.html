@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- for image gallery -->
+<link rel="stylesheet" type="text/css" href="../css/proj_description.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide.min.css">
+<script src="../js/splide.min.js"></script>
+<!-- the other css -->
+<link rel="stylesheet" href="../css/skeleton.css">
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1,
+            }).mount();
+        });
+    </script>
+    <title>Ctrl+Art+Del</title>
+</head>
+
+<body>
+    <div class="bg-color">
+
+        <div class="container" style="padding: 3%">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="../assets/website_logo/logo.png" class="u-full-width">
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVBAR START -->
+        <div id="navigator">
+            <a class="button button-primary" href="../FrontPage.html">Homepage</a>
+            <a class="button button-primary" href="../gallery.html">Artist Gallery</a>
+            <a class="button button-primary" href="../exhibition.html">Exhibition Photos</a>
+            <a class="button button-primary" href="../about.html">About</a>
+            <a class="button button-primary" href="https://newart.city/show/sjsu-fall-2023-space-1">New Art City</a>
+            <a class="button button-primary" id="toTop" href="#topOfPage">UP</a>
+        </div>
+        <!-- NAVBAR ENDS -->
+
+        <!-- container 3 holds both nav bar and other elements -->
+        <div class="container3">
+
+            <div class="child3-2" style="margin-left: 10%;">
+
+                <div class=" container1">
+                    <!-- carousel gallery -->
+                    <div class="child1">
+                        <section id="image-carousel" class="splide" aria-label="Project Images">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/koby1.jpg" alt="well lit living room">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/koby2.jpg"
+                                            alt="digital painting of waterfall under a clear sky in 3D world">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/koby2.png"
+                                            alt="spacious building with a fancy staircase">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/koby3.jpg"
+                                            alt="digital illustration of cherry blossom trees and giant purple mushrooms">
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- area for description -->
+                    <div class="child2">
+                        <h2 style="font-family: 'Source Code Pro', monospace;">Our Fantasy</h2>
+                        <h3 style="font-family: 'Source Code Pro', monospace; font-size: 24px;">Koby Nguyen </h3>
+                        <p style="text-align: left; font-size: 16px;   line-height: 150%;">
+                            Artist statement: "My work is a fantasy world I have created for anyone to express
+                            themselves and their creativity. Exploring a world that reflects not only my artistic
+                            abilities but embodies the sole purpose of why I make art with the idea of influencing
+                            character designing and exploring creativity, giving viewers the option to interact with the
+                            piece to be a part of the art. I utilized a 3D space and 2D canvases for the art of this
+                            world to bring it to life and used the support of Aggie.io to add the interactive feature."
+                        </p>
+                        <a href="">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view project</button>
+                        </a>
+                    </div>
+                </div>
+                <br>
+
+
+
+                <div class="container2">
+                    <div class="child2-1">
+                        <h2>Biography</h2>
+                        <p style="text-align: left;">
+                            Koby Nguyen goes by he/him, and his artist name is SkullWalkerX, but he goes by Koby or
+                            Skull for short! Koby is a character designer and aims to develop a fantasy world where
+                            others can bring their characters to life. Koby became interested in art through family,
+                            animations, and comics when he was younger. After developing this hobby, the internet
+                            influencer, illustrator, and concept artist RossDraws or Ross Tran assured Koby’s career
+                            path. Ross had a world with many characters, including their communities, and that’s what
+                            Koby strives to be and more. Thus, Koby grew on Twitch through his dedication, amassing a
+                            following of 1.8k in a couple of months. Due to the influx, Koby’s commission rate has gone
+                            up! Koby developed his art skills through self-taught, education, and online tutorials
+                            because experience is everything!
+                        </p>
+                        <a href="https://kobynguyen.wixsite.com/website">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view artist
+                                portfolio</button>
+                        </a>
+                    </div>
+                    <div class="child2-2">
+                        <img class="artist_profile" src="../assets/artist_img/koby.jpg" alt="koby nguyen ">
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
