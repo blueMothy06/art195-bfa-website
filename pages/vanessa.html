@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- for image gallery -->
+<link rel="stylesheet" type="text/css" href="../css/proj_description.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-core.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide-default.min.css">
+<link rel="stylesheet" type="text/css" href="../css/splide.min.css">
+<script src="../js/splide.min.js"></script>
+<!-- the other css -->
+<link rel="stylesheet" href="../css/skeleton.css">
+<link rel="stylesheet" href="../css/normalize.css">
+<link rel="stylesheet" href="../css/navbar.css">
+<link rel="stylesheet" href="../css/style.css">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1,
+            }).mount();
+        });
+    </script>
+    <title>Ctrl+Art+Del</title>
+</head>
+
+<body>
+    <div class="bg-color">
+
+        <div class="container" style="padding: 3%">
+            <div class="row">
+                <div class="twelve columns">
+                    <img src="../assets/website_logo/logo.png" class="u-full-width">
+                </div>
+            </div>
+        </div>
+
+        <!-- NAVBAR START -->
+        <div id="navigator">
+            <a class="button button-primary" href="../FrontPage.html">Homepage</a>
+            <a class="button button-primary" href="../gallery.html">Artist Gallery</a>
+            <a class="button button-primary" href="../exhibition.html">Exhibition Photos</a>
+            <a class="button button-primary" href="../about.html">About</a>
+            <a class="button button-primary" href="https://newart.city/show/sjsu-fall-2023-space-1">New Art City</a>
+            <a class="button button-primary" id="toTop" href="#topOfPage">UP</a>
+        </div>
+        <!-- NAVBAR ENDS -->
+
+        <!-- container 3 holds both nav bar and other elements -->
+        <div class="container3">
+
+            <div class="child3-2" style="margin-left: 10%;">
+
+                <div class=" container1">
+                    <!-- carousel gallery -->
+                    <div class="child1">
+                        <section id="image-carousel" class="splide" aria-label="Project Images">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/vanessa1.png" alt="Facial Tracking using">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/vanessa2.png" alt="Aura/Emotion Visuals">
+                                    </li>
+                                    <li class="splide__slide">
+                                        <img src="../assets/proj_img/vanessa3.png" alt="Max Patch">
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+
+                    <!-- area for description -->
+                    <div class="child2">
+                        <h2 style="font-family: 'Source Code Pro', monospace;">Emotion Echo Bot</h2>
+                        <h3 style="font-family: 'Source Code Pro', monospace; font-size: 24px;">Vanessa Kim</h3>
+                        <p style="text-align: left; font-size: 16px;   line-height: 150%;">
+                            Artist statement: "The exploration of AI and AI-generated work initially filled me with
+                            terror due to how AI was portrayed and my lack of understanding what artificial intelligence
+                            means. My artistic endeavors are usually a blend between traditional and digital mediums and
+                            before I came to SJSU I only engaged with traditional mediums like painting. When I was only
+                            engaged in traditional mediums and encountering AI art, I was often frustrated and angry at
+                            the lack of policy and the seemingly mindless theft or work. The thought of AI transforming
+                            years of an artist's work into something that cannot be copyrighted or traced back to its
+                            origins within moments was deeply unsettling. I wrestled with feelings of rage and
+                            apprehension about the future of artists, concerned about their creations and identities
+                            being stripped from their contexts instantaneously.
+                            <br><br>
+                            However, my perspective shifted as I delved into coding and the history of computer-based
+                            art. This exploration, including reading Safita Umoja Noble's "Algorithms of Oppression" and
+                            attending classes at SJSU, unveiled the more human aspect of these programs. They embody
+                            human traits, which in turn makes them unreliable and at times incredibly stupid. In this
+                            project, I aim to navigate my evolving perceptions of AI, acknowledging its intimidating
+                            nature and the uncertainty of the future. Yet, there's an individual behind that code, with
+                            their thoughts, biases, and 'dumb brain' lurking behind our computer screens. I wanted to
+                            explore the feelings of trust I had with AI and what it claims to be or do, but also to
+                            recognize the human intentions and guidance behind the machine. My exploration of this
+                            concept shifted towards a question that became the main concept of this art work: what does
+                            it mean for a machine to claim to be powered by Artificial Intelligence and how much can we
+                            trust it?"
+                        </p>
+                        <a href="">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view project</button>
+                        </a>
+                    </div>
+                </div>
+                <br>
+
+
+
+                <div class="container2">
+                    <div class="child2-1">
+                        <h2>Biography</h2>
+                        <p style="text-align: left;">
+                            Vanessa Kim specializes in a multitude of mediums, prominently including acrylic, digital
+                            painting, and web-based design. Her creative process is a combination of these mediums,
+                            often breathing new life into past ideas and revitalizing them within the digital realm.
+                            Drawing inspiration from her everyday experiences and the intricate relationships between
+                            science, technology, and art, Vanessa is deeply connected to her craft. Her love for art
+                            history's resonance in the ordinary modern world infuses her work with a unique perspective.
+                            <br><br>
+                            Within her creations, she delves into the intricate web that connects personal narratives,
+                            nature's wonders, and contemporary opinions and ideas about technology. Internet culture and
+                            the imagery it births often serve as the basis from which her projects evolve, eventually
+                            transforming into the more serious stages of her creative process. The people in her life
+                            are some of the biggest inspirations to her creative journey. Their support fuels many of
+                            her artistic endeavors.
+                        </p>
+                        <a href="www.vanessakimcollection.com">
+                            <button style="margin-bottom: 15%; text-transform: uppercase; ">view artist
+                                portfolio</button>
+                        </a>
+                    </div>
+                    <div class="child2-2">
+                        <img class="artist_profile" src="../assets/artist_img/vanessa.png" alt="vanessa kim">
+                    </div>
+                </div>
+                <br>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
