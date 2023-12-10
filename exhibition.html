@@ -17,6 +17,14 @@
 <head>
     <meta charset="utf-8">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                heightRatio: 1,
+                rewind: true,
+            }).mount();
+        });
+    </script>
     <title>Ctrl+Art+Del</title>
 </head>
 
@@ -42,60 +50,81 @@
         </div>
         <!-- NAVBAR ENDS -->
 
-        <!-- area for description -->
-        <div class="child1" style="margin-left: 10%;">
+
+        <div class="child1" style="margin-left: 10%; max-height: 10px; max-width: 40%; ">
             <h2 style="font-family: 'Source Code Pro', monospace;">Exhibition Photos</h2>
             <p style="text-align: left; font-size: 16px;   line-height: 150%;">
                 December 2nd, 2023
             </p>
 
-            <section id="main-carousel" class="splide"
-                aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
+            <section id="image-carousel" class="splide" aria-label="Project Images">
                 <div class="splide__track">
                     <ul class="splide__list">
                         <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition1.jpg" alt="">
+                            <img src="assets/exhibition/exhibition1.jpg">
                         </li>
                         <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition2.jpg" alt="">
+                            <img src="assets/exhibition/exhibition2.jpg">
                         </li>
                         <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition3.jpg" alt="">
+                            <img src="assets/exhibition/exhibition3.jpg">
                         </li>
                         <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition4.jpg" alt="">
+                            <img src="assets/exhibition/exhibition4.jpg">
                         </li>
                         <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition5.jpg" alt="">
+                            <img src="assets/exhibition/exhibition5.jpg">
                         </li>
                         <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition5.jpg" alt="">
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section id="thumbnail-carousel" class="splide"
-                aria-label="The carousel with thumbnails. Selecting a thumbnail will change the Beautiful Gallery carousel.">
-                <div class="splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition1.jpg" alt="">
+                            <img src="assets/exhibition/exhibition6.jpg">
                         </li>
                         <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition2.jpg" alt="">
+                            <img src="assets/exhibition/exhibition7.jpg">
                         </li>
                         <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition3.jpg" alt="">
+                            <img src="assets/exhibition/exhibition8.jpg">
                         </li>
                         <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition4.jpg" alt="">
+                            <img src="assets/exhibition/exhibition9.jpg">
                         </li>
                         <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition5.jpg" alt="">
+                            <img src="assets/exhibition/exhibition10.jpg">
                         </li>
                         <li class="splide__slide">
-                            <img src="assets/exhibition/exhibition5.jpg" alt="">
+                            <img src="assets/exhibition/exhibition11.jpg">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/exhibition/exhibition12.jpg">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/exhibition/exhibition13.jpg">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/exhibition/exhibition14.jpeg">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/exhibition/exhibition15.webp">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/exhibition/exhibition16.webp">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/exhibition/exhibition17.webp">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/exhibition/exhibition18.webp">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/exhibition/exhibition19.webp">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/exhibition/exhibition20.webp">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/exhibition/exhibition21.webp">
+                        </li>
+                        <li class="splide__slide">
+                            <img src="assets/exhibition/exhibition22.webp">
                         </li>
                     </ul>
                 </div>
@@ -104,35 +133,6 @@
 
     </div>
 
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var main = new Splide('#main-carousel', {
-                type: 'fade',
-                rewind: true,
-                pagination: false,
-                arrows: false,
-            });
-
-            var thumbnails = new Splide('#thumbnail-carousel', {
-                fixedWidth: 100,
-                fixedHeight: 60,
-                gap: 10,
-                rewind: true,
-                pagination: false,
-                isNavigation: true,
-                breakpoints: {
-                    600: {
-                        fixedWidth: 60,
-                        fixedHeight: 44,
-                    },
-                },
-            });
-
-            main.sync(thumbnails);
-            main.mount();
-            thumbnails.mount();
-        });
-    </script>
 </body>
 
 </html>
